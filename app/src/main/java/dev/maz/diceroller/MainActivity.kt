@@ -68,8 +68,9 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun DiceRollerApp() {
-    DiceWithButtonAndImage(modifier = Modifier
-        .fillMaxSize()
-        .wrapContentSize(align = Alignment.Center)
+    DiceWithButtonAndImage(
+        modifier = Modifier
+            .fillMaxSize()
+            .wrapContentSize(align = Alignment.Center)
     )
 }
